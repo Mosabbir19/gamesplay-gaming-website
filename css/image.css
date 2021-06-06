@@ -1,0 +1,78 @@
+.imagedevil{     /*background image*/
+  background-image: url("../image/action1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagegod{     /*background image*/
+  background-image: url("../image/action2.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagenfl{     /*background image*/
+  background-image: url("../image/sports1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagefifa{     /*background image*/
+  background-image: url("../image/sports2.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagecricket{     /*background image*/
+  background-image: url("../image/sports3.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagesteep{     /*background image*/
+  background-image: url("../image/sports4.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imageneedforspeed{     /*background image*/
+  background-image: url("../image/racing1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imageforza7{     /*background image*/
+  background-image: url("../image/racing2.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagecrew{     /*background image*/
+  background-image: url("../image/racing3.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagetruck{     /*background image*/
+  background-image: url("../image/sim1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagesim{     /*background image*/
+  background-image: url("../image/sim2.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imagefarm{     /*background image*/
+  background-image: url("../image/sim3.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.imageeuro{     /*background image*/
+  background-image: url("../image/im4.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}

@@ -1,0 +1,472 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap&subset=devanagari,latin-ext" rel="stylesheet">
+body{
+  padding: 0px;
+  margin: 0px;
+}
+/*........navigation bar.........*/
+.container{
+  position: sticky;
+  margin: 0px;
+}
+.nav{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.section1{
+  margin-left: 300px;
+  margin-top: -28px;
+}
+.nav .section1 a{
+  color: white;
+  text-decoration: none;
+  font-family: Teko;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 20px;
+  text-align: center;
+}
+.nav .section1 a:hover{
+  /*background-color: #CC2936;*/
+  background-color: white;
+  color: black;
+}
+.nav .section2{/*...login & signup...*/
+  float: right;
+  margin-top: -28px;
+}
+.nav .section2 a{
+  text-decoration: none;
+  padding: 18px;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  background: #cc2936;
+}
+.nav .section2 a:hover{
+  background: white;
+  color: #cc2936;
+}
+
+.dropdown{ /*....dropdown.....*/
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  background: rgb(24, 24, 24);
+  position: fixed;
+}
+.dropdown-content a{
+  display: block;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  margin-top: 11px;
+}
+
+.icon{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.image{     /*background image*/
+  background-image: url("../image/featurednews.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+.text img{
+    margin-top: 50px;
+    float: left;
+}
+.text #text1{      /*join the battle*/
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 30px;
+  padding: 400px 0px 0px 200px;
+}
+.text .btntrailer{     /*button trailer*/
+  color: white;
+  font-size: 18px;
+  padding: 13px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: -80px 200px 0px 0px;
+  float: right;
+  font-family: Roboto;
+  cursor: pointer;
+  border: 1.5px solid #CC2936;
+}
+.text .btntrailer:hover{
+  background-color: #cc2936;
+  color: white;
+}
+.text .btnorder{      /*button pre-order*/
+  color: white;
+  font-size: 18px;
+  padding: 13px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: -80px 380px 0px 0px;
+  float: right;
+  font-family: Roboto;
+  cursor: pointer;
+  border: 1.5px solid #CC2936;
+}
+.text .btnorder:hover{
+  background-color: #cc2936;
+  color: white;
+}
+/*......featured news section.......*/
+
+.textfeature{
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  background: #cc2936;
+  color: white;
+}
+
+.stylecolor2{
+  background: #cc2936;
+}
+
+
+/*...... section 1 featured....*/
+.sectionfeature1{
+  padding-top: 10px;
+}
+.imagefeature1{
+  padding: 50px;
+  margin-left: 80px;
+}
+.textfeatured1{
+  font-size:8px;
+  margin-left: 550px;
+  margin-top: -248px;
+}
+.txtpart1{
+  font-size: 10px;
+  background: #cc2936;
+  color: white;
+  padding: 10px;
+  width: 80%;
+}
+#txtname1{
+  text-align: left;
+  font-family: Roboto;
+  font-weight: normal;
+}
+#txtdate1{
+  font-size: 15px;
+  text-align: right;
+  margin-top: -22px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.txtpart2{
+  width: 80%;
+  background: rgb(237, 237, 237, 0.6);
+  padding: 10px;
+  padding-bottom: 48px;
+}
+.updatetxt1{
+  padding-top: 5px;
+}
+.updatetxt1 a{
+  font-family: Teko;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(60, 60, 60);
+}
+.updatetxt1 a:hover{
+  color: black;
+}
+#newstxt1{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*...... section 2 featured....*/
+.sectionfeature2{
+  padding-top: 10px;
+}
+.imagefeature2{
+  padding: 50px;
+  margin-left: 80px;
+}
+.textfeatured2{
+  font-size:8px;
+  margin-left: 550px;
+  margin-top: -248px;
+}
+.txtpart3{
+  font-size: 10px;
+  background: #cc2936;
+  color: white;
+  padding: 10px;
+  width: 80%;
+}
+#txtname2{
+  text-align: left;
+  font-family: Roboto;
+  font-weight: normal;
+}
+#txtdate2{
+  font-size: 15px;
+  text-align: right;
+  margin-top: -22px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.txtpart4{
+  width: 80%;
+  background: rgb(237, 237, 237, 0.6);
+  padding: 10px;
+  padding-bottom: 48px;
+}
+.updatetxt2{
+  padding-top: 5px;
+}
+.updatetxt2 a{
+  font-family: Teko;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+.updatetxt2 a:hover{
+  color: black;
+}
+#newstxt2{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*...... section 3 featured....*/
+.sectionfeature3{
+  padding-top: 10px;
+}
+.imagefeature3{
+  padding: 50px;
+  margin-left: 80px;
+}
+.textfeatured3{
+  font-size:8px;
+  margin-left: 550px;
+  margin-top: -248px;
+}
+.txtpart5{
+  font-size: 10px;
+  background: #cc2936;
+  color: white;
+  padding: 10px;
+  width: 80%;
+}
+#txtname3{
+  text-align: left;
+  font-family: Roboto;
+  font-weight: normal;
+}
+#txtdate3{
+  font-size: 15px;
+  text-align: right;
+  margin-top: -22px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.txtpart6{
+  width: 80%;
+  padding-top: 20px;
+  background: rgb(237, 237, 237, 0.6);
+  padding: 10px;
+  padding-bottom: 48px;
+}
+.updatetxt3{
+  padding-top: 5px;
+}
+.updatetxt3 a{
+  font-family: Teko;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+.updatetxt3 a:hover{
+  color: black;
+}
+#newstxt3{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*...... section 4 featured....*/
+.sectionfeature4{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.imagefeature4{
+  padding: 50px;
+  margin-left: 80px;
+}
+.textfeatured4{
+  font-size:8px;
+  margin-left: 550px;
+  margin-top: -248px;
+}
+.txtpart7{
+  font-size: 10px;
+  background: #cc2936;
+  color: white;
+  padding: 10px;
+  width: 80%;
+}
+#txtname4{
+  text-align: left;
+  font-family: Roboto;
+  font-weight: normal;
+}
+#txtdate4{
+  font-size: 15px;
+  text-align: right;
+  margin-top: -22px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.txtpart8{
+  width: 80%;
+  padding-top: 20px;
+  background: rgb(237, 237, 237, 0.6);
+  padding: 10px;
+  padding-bottom: 48px;
+}
+.updatetxt4{
+  padding-top: 5px;
+}
+.updatetxt4 a{
+  font-family: Teko;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+.updatetxt4 a:hover{
+  color: black;
+}
+#newstxt4{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.more2{
+  text-align: center;
+  padding: 2px;
+  font-size: 20px;
+  font-family: Teko;
+  background: white;
+  padding-bottom: 40px;
+}
+.more2 a{
+  text-decoration: none;
+  color: #cc2936;
+  border: 1px solid #cc2936;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.more2 a:hover{
+  background: #cc2936;
+  color: white;
+}
+
+/*...........footer.........*/
+.footer{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+}
+.footerimage1{
+  padding-top: 70px;
+  float: left;
+  padding-left: 30px;
+}
+.footertxt1{
+  margin-left: 590px;
+  padding-top: 50px;
+}
+.footertxt1 a{
+  text-decoration: none;
+  font-family: teko;
+  font-size: 19px;
+  margin: 10px;
+  color: rgb(170, 170, 170);
+}
+.footertxt1 a:hover{
+  color: white;
+}
+.footertxt2{
+  margin-left: 510px;
+  padding-top: 10px;
+}
+.footertxt2 a{
+  text-decoration: none;
+  font-family: Teko;
+  margin: 15px;
+  font-size: 19px;
+  color: rgb(170, 170, 170);
+}
+.footertxt2 a:hover{
+  color: white;
+}
+#copyright{
+  font-size: 19px;
+  color: #cc2936;
+  margin-left: 535px;
+  padding-top: 30px;
+  font-family: teko;
+  font-weight: normal;
+}
+#footertxt3{
+  float:right;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  margin-top: -130px;
+  margin-right: 70px;
+}
+.socialmedia{
+  float: right;
+  margin-top: -100px;
+  margin-right: 10px;
+}
+.socialmedia a{
+  color: white;
+  font-size: 15px;
+  background: #cc2936;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}

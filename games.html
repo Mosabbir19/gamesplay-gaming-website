@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to the Games World</title>
+  <link rel="stylesheet" href="./css/games.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!......navigation + image......>
+    <div class="image">
+      <div class="container">
+        <div class="nav">
+          <div class="icon"><a href="home.html"><img src="./image/gamesplay.png" height=30px></a>
+          </div>
+          <div class="section1">
+            <a href="home.html">HOME</a>
+            <a href="games.html">GAMES</a>
+            <a href="news.html">NEWS</a>
+            <div class="dropdown">
+              <a href="career.html">CAREER</a>
+              <div class="dropdown-content">
+                <a href="join.php">JOIN US</a>
+              </div>
+            </div>
+            <a href="about.html">ABOUT</a>
+          </div>
+          <div class="section2">
+            <a href="login.php">LOG IN</a>
+            <a href="signup.php">SIGN UP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!........latest games.......>
+      <div class="latesttxt">
+        <h1>LATEST GAMES</h1>
+      </div>
+      <button class="btnsearch">Search</button>
+      <form class="search" action="index.html" method="post">
+        <input type="text" name="search" placeholder="search">
+      </form>
+      <div class="stylecolor"></div>
+
+      <div class="color">
+      <!.....section 1 latest........>
+        <div class="latestbackground1">
+          <div class="latext">
+            <h1 id="latext1">Assassins Creed Origin</h1>
+          </div>
+          <div class="latestimage1">
+            <img src="./image/latest1.jpg" height="50%" width="50%">
+          </div>
+          <div class="latext2">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div class="download1">
+            <a href="downloadassassin.html">Download Now</a>
+          </div>
+        </div>
+        <!.....section 2 latest........>
+          <div class="latestbackground2">
+            <div class="latext">
+              <h1 id="latext3">Resident Evil | Biohazard</h1>
+            </div>
+            <div class="latestimage2">
+              <img src="./image/latest2.jpg" height="50%" width="50%">
+            </div>
+            <div class="latext4">
+              <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+            </div>
+            <div class="download2">
+              <a href="downloadresident.html">Download Now</a>
+            </div>
+          </div>
+          <!.....section 3 latest........>
+            <div class="latestbackground3">
+              <div class="latext">
+                <h1 id="latext5">Watch Dogs</h1>
+              </div>
+              <div class="latestimage3">
+                <img src="./image/latest3.jpg" height="50%" width="50%">
+              </div>
+              <div class="latext6">
+                <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+              </div>
+              <div class="download3">
+                <a href="downloadwatchdogs.html">Download Now</a>
+              </div>
+            </div>
+
+  <!.....section 4 latest........>
+      <div class="latestbackground4">
+        <div class="latext">
+          <h1 id="latext7">Forza Horizon 3</h1>
+        </div>
+        <div class="latestimage4">
+          <img src="./image/latest4.jpg" height="50%" width="50%">
+        </div>
+        <div class="latext8">
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+        </div>
+        <div class="download4">
+          <a href="downloadforzahorizon.html">Download Now</a>
+        </div>
+      </div>
+    <!......more.......>
+    <div class="more1">
+      <a href="games.html">Next</a>
+    </div>
+  </div>
+
+  <!.......tabs.....>
+  <button class="tablink" onclick="openPage('action', this,'white')"id="defaultOpen">ACTION</button>
+<button class="tablink" onclick="openPage('sports', this, 'white')">SPORTS</button>
+<button class="tablink" onclick="openPage('racing', this, 'white')">RACING</button>
+<button class="tablink" onclick="openPage('simulation', this, 'white')">SIMULATION</button>
+
+<div id="action" class="tabcontent">
+  <!.....section 1 latest........>
+    <div class="latestbackground1">
+      <div class="latext">
+        <h1 id="latext1">Devil May Cry</h1>
+      </div>
+      <div class="latestimage1">
+        <img src="./image/action1.jpg" height="50%" width="50%">
+      </div>
+      <div class="latext2">
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      </div>
+      <div class="download1">
+        <a href="downloaddevil.html">Download Now</a>
+      </div>
+    </div>
+    <!.....section 2 latest........>
+      <div class="latestbackground2">
+        <div class="latext">
+          <h1 id="latext3">God of War</h1>
+        </div>
+        <div class="latestimage2">
+          <img src="./image/action2.jpg" height="50%" width="50%">
+        </div>
+        <div class="latext4">
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+        </div>
+        <div class="download2">
+          <a href="downloadgod.html">Download Now</a>
+        </div>
+      </div>
+      <!.....section 3 latest........>
+        <div class="latestbackground3">
+          <div class="latext">
+            <h1 id="latext5">Watch Dogs</h1>
+          </div>
+          <div class="latestimage3">
+            <img src="./image/latest3.jpg" height="50%" width="50%">
+          </div>
+          <div class="latext6">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div class="download3">
+            <a href="downloadwatchdogs.html">Download Now</a>
+          </div>
+        </div>
+
+<!.....section 4 latest........>
+  <div class="latestbackground4">
+    <div class="latext">
+      <h1 id="latext7">Forza Horizon 3</h1>
+    </div>
+    <div class="latestimage4">
+      <img src="./image/latest4.jpg" height="50%" width="50%">
+    </div>
+    <div class="latext8">
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+    </div>
+    <div class="download4">
+      <a href="downloadforzahorizon.html">Download Now</a>
+    </div>
+  </div>
+<!......more.......>
+<div class="more1">
+  <a href="games.html">Next</a>
+</div>
+</div>
+</div>
+
+<div id="sports" class="tabcontent">
+  <!.....section 1 latest........>
+    <div class="latestbackground1">
+      <div class="latext">
+        <h1 id="latext1">Maddden NFL</h1>
+      </div>
+      <div class="latestimage1">
+        <img src="./image/sports1.jpg" height="50%" width="50%">
+      </div>
+      <div class="latext2">
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      </div>
+      <div class="download1">
+        <a href="downloadnfl.html">Download Now</a>
+      </div>
+    </div>
+    <!.....section 2 latest........>
+      <div class="latestbackground2">
+        <div class="latext">
+          <h1 id="latext3">FIFA 17</h1>
+        </div>
+        <div class="latestimage2">
+          <img src="./image/sports2.jpg" height="52%" width="52%">
+        </div>
+        <div class="latext4">
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+        </div>
+        <div class="download2">
+          <a href="downloadfifa.html">Download Now</a>
+        </div>
+      </div>
+      <!.....section 3 latest........>
+        <div class="latestbackground3">
+          <div class="latext">
+            <h1 id="latext5">WCricket Championship</h1>
+          </div>
+          <div class="latestimage3">
+            <img src="./image/sports3.jpg" height="50%" width="50%">
+          </div>
+          <div class="latext6">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div class="download3">
+            <a href="downloadcricket.html">Download Now</a>
+          </div>
+        </div>
+
+<!.....section 4 latest........>
+  <div class="latestbackground4">
+    <div class="latext">
+      <h1 id="latext7">Steep Extreme</h1>
+    </div>
+    <div class="latestimage4">
+      <img src="./image/sports4.jpg" height="45%" width="45%">
+    </div>
+    <div class="latext8">
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+    </div>
+    <div class="download4">
+      <a href="downloadsteep.html">Download Now</a>
+    </div>
+  </div>
+<!......more.......>
+<div class="more1">
+  <a href="games.html">Next</a>
+</div>
+</div>
+</div>
+
+<div id="racing" class="tabcontent">
+  <!.....section 1 latest........>
+    <div class="latestbackground1">
+      <div class="latext">
+        <h1 id="latext1">Need For Speed</h1>
+      </div>
+      <div class="latestimage1">
+        <img src="./image/racing1.jpg" height="50%" width="50%">
+      </div>
+      <div class="latext2">
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      </div>
+      <div class="download1">
+        <a href="downloadneedforspeed.html">Download Now</a>
+      </div>
+    </div>
+    <!.....section 2 latest........>
+      <div class="latestbackground2">
+        <div class="latext">
+          <h1 id="latext3">Forza Horizon 7</h1>
+        </div>
+        <div class="latestimage2">
+          <img src="./image/racing2.jpg" height="50%" width="50%">
+        </div>
+        <div class="latext4">
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+        </div>
+        <div class="download2">
+          <a href="downloadforza7.html">Download Now</a>
+        </div>
+      </div>
+      <!.....section 3 latest........>
+        <div class="latestbackground3">
+          <div class="latext">
+            <h1 id="latext5">The Crew</h1>
+          </div>
+          <div class="latestimage3">
+            <img src="./image/racing3.jpg" height="50%" width="50%">
+          </div>
+          <div class="latext6">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div class="download3">
+            <a href="downloadcrew.html">Download Now</a>
+          </div>
+        </div>
+
+<!.....section 4 latest........>
+  <div class="latestbackground4">
+    <div class="latext">
+      <h1 id="latext7">Forza Horizon 3</h1>
+    </div>
+    <div class="latestimage4">
+      <img src="./image/latest4.jpg" height="50%" width="50%">
+    </div>
+    <div class="latext8">
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+    </div>
+    <div class="download4">
+      <a href="downloadforzahorizon.html">Download Now</a>
+    </div>
+  </div>
+<!......more.......>
+<div class="more1">
+  <a href="games.html">Next</a>
+</div>
+</div>
+</div>
+
+<div id="simulation" class="tabcontent">
+  <!.....section 1 latest........>
+    <div class="latestbackground1">
+      <div class="latext">
+        <h1 id="latext1">Truck Simulator</h1>
+      </div>
+      <div class="latestimage1">
+        <img src="./image/sim1.jpg" height="50%" width="50%">
+      </div>
+      <div class="latext2">
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      </div>
+      <div class="download1">
+        <a href="downloadtruck.html">Download Now</a>
+      </div>
+    </div>
+    <!.....section 2 latest........>
+      <div class="latestbackground2">
+        <div class="latext">
+          <h1 id="latext3">Sim City 2</h1>
+        </div>
+        <div class="latestimage2">
+          <img src="./image/sim2.jpg" height="50%" width="50%">
+        </div>
+        <div class="latext4">
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+        </div>
+        <div class="download2">
+          <a href="downloadsim.html">Download Now</a>
+        </div>
+      </div>
+      <!.....section 3 latest........>
+        <div class="latestbackground3">
+          <div class="latext">
+            <h1 id="latext5">Farming Simulator</h1>
+          </div>
+          <div class="latestimage3">
+            <img src="./image/sim3.jpg" height="50%" width="50%">
+          </div>
+          <div class="latext6">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div class="download3">
+            <a href="downloadfarm.html">Download Now</a>
+          </div>
+        </div>
+
+<!.....section 4 latest........>
+  <div class="latestbackground4">
+    <div class="latext">
+      <h1 id="latext7">Euro Truck Simulator</h1>
+    </div>
+    <div class="latestimage4">
+      <img src="./image/sim4.jpg" height="50%" width="50%">
+    </div>
+    <div class="latext8">
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+    </div>
+    <div class="download4">
+      <a href="downloadeuro.html">Download Now</a>
+    </div>
+  </div>
+<!......more.......>
+<div class="more1">
+  <a href="games.html">Next</a>
+</div>
+</div>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    <!...footer......>
+<div class="footer">
+    <div class="footerimage1">
+      <img src="./image/gamesplay.png" height="40px">
+    </div>
+    <div class="footertxt1">
+      <a href="#">Games</a>
+      <a href="#">Career</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footertxt2">
+      <a href="#">Terms of use</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Cookies policy</a>
+    </div>
+    <div class="copyright">
+      <h1 id="copyright">GAMESPLAY copyright &copy 2019. All rights reserved.</h1>
+    </div>
+    <h1 id="footertxt3">JOIN THE CONVERSATION</h1>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.discord.com/"><i class="fab fa-discord"></i></a>
+    </div>
+  </div>
+
+  <!....javascript....>
+  <script type="text/javascript" src="./js/all.js"></script>
+  <script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("nav").style.top = "0";
+    } else {
+      document.getElementById("nav").style.top = "-80px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+
+</body>
+
+</html>

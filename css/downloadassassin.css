@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap&subset=devanagari,latin-ext" rel="stylesheet">
+body{
+  padding: 0px;
+  margin: 0px;
+}
+/*........navigation bar.........*/
+.container{
+  margin: 0px;
+}
+.nav{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+
+}
+.section1{
+  margin-left: 300px;
+  margin-top: -28px;
+}
+.nav .section1 a{
+  color: white;
+  text-decoration: none;
+  font-family: Teko;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 20px;
+  text-align: center;
+}
+.nav .section1 a:hover{
+  /*background-color: #CC2936;*/
+  background-color: white;
+  color: black;
+}
+.nav .section2{/*...login & signup...*/
+  float: right;
+  margin-top: -28px;
+}
+.nav .section2 a{
+  text-decoration: none;
+  padding: 18px;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  background: #cc2936;
+}
+.nav .section2 a:hover{
+  background: white;
+  color: #cc2936;
+}
+
+.dropdown{ /*....dropdown.....*/
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  background: rgb(24, 24, 24);
+  position: fixed;
+}
+.dropdown-content a{
+  display: block;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  margin-top: 11px;
+}
+
+.icon{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.image{     /*background image*/
+  background-image: url("../image/latest1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.text{
+  text-align: center;
+}
+.text .btntrailer{     /*button trailer*/
+  font-size: 18px;
+  padding: 13px;
+  background: rgb(28, 150, 201);
+  margin-top: -10px;
+  font-family: Roboto;
+  cursor: pointer;
+  border: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text .btntrailer a{
+  color: white;
+  text-decoration: none;
+}
+.text .btntrailer:hover{
+  background-color: #cc2936;
+  color: white;
+}
+
+/*.....game details...*/
+#gamename{
+  font-family: Teko;
+  color: #cc2936;
+  font-size: 40px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.style1{
+  width: 100%;
+  background: #cc2936;
+  height: 5px;
+}
+.pc{
+  padding-left: 100px;
+  padding-top: 30px;
+}
+#pcrequire{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 23px;
+}
+#pcdetails{
+  font-family: Roboto;
+  font-weight: normal;;
+  font-size: 17px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.sidepart{
+  float: right;
+  margin-top: -180px;
+  margin-right: 120px;
+  background: ;
+  padding: 50px;
+  background: white;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.sidepart:hover{
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.sidepart #more{
+  font-family: Roboto;
+  font-size: 22px;
+  margin-top: -20px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  font-weight: normal;
+}
+#sidepartcatagory li{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+#sidepartcatagory li a{
+  color: #cc2936;
+  text-decoration: none;
+}
+#sidepartcatagory li a:hover{
+  text-decoration: underline;
+}
+
+.download {
+  font-family: Roboto;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.download a{
+  text-decoration: none;
+  color: white;
+  background: #cc2936;
+  padding: 10px;
+  border-radius: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.download a:hover{
+  color: #cc2936;
+  background: white;
+  border: 1px solid #cc2736;
+  border-radius: 2%;
+}
+.ratingign{
+  width: 6%;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+#rate1{
+  font-family: Teko;
+  background: rgb(24, 24, 24);
+  font-size: 30px;
+  padding-top: 5px;
+}
+#ratename1{
+  background: black;
+  font-family: teko;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+.ratinggamespot{
+  font-family: Teko;
+  color: white;
+  margin-left: 130px;
+  margin-top: -79px;
+  width: 6%;
+  text-align: center;
+}
+#rate2{
+  font-family: Teko;
+  background: rgb(24, 24, 24);
+  font-size: 30px;
+  padding-top: 5px;
+}
+#ratename2{
+  background: black;
+  font-family: teko;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+.ratingmeta{
+  font-family: Teko;
+  color: white;
+  margin-left: 260px;
+  margin-top: -79px;
+  width: 6%;
+  text-align: center;
+}
+#rate3{
+  font-family: Teko;
+  background: rgb(24, 24, 24);
+  font-size: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+#ratename3{
+  background: black;
+  font-family: teko;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+#pcstudio{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 17px;
+  padding-top: 80px;
+}
+#pcstudio ul{
+  padding-top: 8px;
+}
+#pcstudiodetails{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 200px;
+  margin-top: -119px;
+}
+#pcstudiodetails ul{
+  padding-top: 8px;
+}
+.style2{
+  background: #cc2936;
+  height: 1px;
+  width: 28%;
+}
+.style3{
+  padding-bottom: 100px;
+}
+/*...........footer.........*/
+.footer{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+}
+.footerimage1{
+  padding-top: 70px;
+  float: left;
+  padding-left: 30px;
+}
+.footertxt1{
+  margin-left: 590px;
+  padding-top: 50px;
+}
+.footertxt1 a{
+  text-decoration: none;
+  font-family: teko;
+  font-size: 19px;
+  margin: 10px;
+  color: rgb(170, 170, 170);
+}
+.footertxt1 a:hover{
+  color: white;
+}
+.footertxt2{
+  margin-left: 510px;
+  padding-top: 10px;
+}
+.footertxt2 a{
+  text-decoration: none;
+  font-family: Teko;
+  margin: 15px;
+  font-size: 19px;
+  color: rgb(170, 170, 170);
+}
+.footertxt2 a:hover{
+  color: white;
+}
+#copyright{
+  font-size: 19px;
+  color: #cc2936;
+  margin-left: 535px;
+  padding-top: 30px;
+  font-family: teko;
+  font-weight: normal;
+}
+#footertxt3{
+  float:right;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  margin-top: -130px;
+  margin-right: 70px;
+}
+.socialmedia{
+  float: right;
+  margin-top: -100px;
+  margin-right: 10px;
+}
+.socialmedia a{
+  color: white;
+  font-size: 15px;
+  background: #cc2936;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  transition: 0.2s linear;
+}
+.socialmedia a:hover{
+  transform: scale(1.3);
+}

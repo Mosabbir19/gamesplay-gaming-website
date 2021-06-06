@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap&subset=devanagari,latin-ext" rel="stylesheet">
+body{
+  padding: 0px;
+  margin: 0px;
+}
+/*........navigation bar.........*/
+.container{
+  position: sticky;
+  margin: 0px;
+}
+.nav{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.section1{
+  margin-left: 300px;
+  margin-top: -28px;
+}
+.nav .section1 a{
+  color: white;
+  text-decoration: none;
+  font-family: Teko;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 20px;
+  text-align: center;
+}
+.nav .section1 a:hover{
+  /*background-color: #CC2936;*/
+  background-color: white;
+  color: black;
+}
+.nav .section2{/*...login & signup...*/
+  float: right;
+  margin-top: -28px;
+}
+.nav .section2 a{
+  text-decoration: none;
+  padding: 18px;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  background: #cc2936;
+}
+.nav .section2 a:hover{
+  background: white;
+  color: #cc2936;
+}
+
+.dropdown{ /*....dropdown.....*/
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  background: rgb(24, 24, 24);
+  position: fixed;
+}
+.dropdown-content a{
+  display: block;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  margin-top: 11px;
+}
+
+.icon{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.image{     /*background image*/
+  background-image: url("../image/news.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.newsname{
+  font-family: Teko;
+  font-size: 110px;
+  text-align: center;
+  background: rgb(255, 255, 255, 0.1);
+  margin-top: 90px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+
+
+/*.....newspart....*/
+.newspart{
+  text-align: center;
+}
+#newstitle{
+  font-family: Roboto;
+  padding: 15px 15px;
+  color: #cc2936;
+    background: rgb(24, 24, 24);
+}
+.newspart .style{
+  background: #cc2936;
+  min-height: 5px;
+}
+.newspart #date{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 17px;
+  font-style: italic;
+  padding-top: 5px;
+  opacity: 0.7;
+}
+.newspart #text{
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  background-color: white;
+  padding: 30px 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+
+/*...........footer.........*/
+.footer{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 10px;
+}
+.footerimage1{
+  padding-top: 70px;
+  float: left;
+  padding-left: 30px;
+}
+.footertxt1{
+  margin-left: 590px;
+  padding-top: 50px;
+}
+.footertxt1 a{
+  text-decoration: none;
+  font-family: teko;
+  font-size: 19px;
+  margin: 10px;
+  color: rgb(170, 170, 170);
+}
+.footertxt1 a:hover{
+  color: white;
+}
+.footertxt2{
+  margin-left: 510px;
+  padding-top: 10px;
+}
+.footertxt2 a{
+  text-decoration: none;
+  font-family: Teko;
+  margin: 15px;
+  font-size: 19px;
+  color: rgb(170, 170, 170);
+}
+.footertxt2 a:hover{
+  color: white;
+}
+#copyright{
+  font-size: 19px;
+  color: #cc2936;
+  margin-left: 535px;
+  padding-top: 30px;
+  font-family: teko;
+  font-weight: normal;
+}
+#footertxt3{
+  float:right;
+  font-family: Teko;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  margin-top: -130px;
+  margin-right: 70px;
+}
+.socialmedia{
+  float: right;
+  margin-top: -100px;
+  margin-right: 10px;
+}
+.socialmedia a{
+  color: white;
+  font-size: 15px;
+  background: #cc2936;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}

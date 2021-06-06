@@ -1,0 +1,29 @@
+
+.text{
+  font-size:8px;
+  float: left;
+  width: 60%;
+  font-family: Roboto;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.text #t01{
+  font-size: 25px;
+  font-weight: normal;
+}
+.text #t02{
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.button1{
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 9px;
+}
+.button1 a{
+  text-decoration: none;
+  background: #00bff3;
+  padding: 5px 8px;
+  color: white;
+  font-weight: normal;
+}

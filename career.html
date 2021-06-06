@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Welcome to the Games World</title>
+  <link rel="stylesheet" href="./css/career.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!......navigation + image......>
+
+
+
+    <div class="image">
+      <div class="container">
+        <div class="nav">
+          <div class="icon"><a href="home.html"><img src="./image/gamesplay.png" height=30px></a>
+          </div>
+          <div class="section1">
+            <a href="home.html">HOME</a>
+            <a href="games.html">GAMES</a>
+            <a href="news.html">NEWS</a>
+          <div class="dropdown">
+            <a href="career.html">CAREER</a>
+            <div class="dropdown-content">
+              <a href="join.php">JOIN US</a>
+            </div>
+          </div>
+            <a href="about.html">ABOUT</a>
+          </div>
+          <div class="section2">
+            <a href="login.php">LOG IN</a>
+            <a href="signup.php">SIGN UP</a>
+          </div>
+        </div>
+        <h1 id="text">CONNECT YOUR FUTURE TO OURS.</h1>
+        <h1 id="text1">Inspire. Dream. Play.</h1>
+        <h1 id="joinlink"><a href="join.php">Find Your Career</a></h1>
+      </div>
+    </div>
+
+    <div class="midtext">
+      <h1 id="midtext1">At EA, we exist to Inspire the World to Play. We create amazing experiences for our players everywhere and we consider our players’ experiences first in everything we do.</h1>
+      <h1 id="midtext2">Creating transformational experiences requires constant innovation and brilliant, passionate people. We are developing extraordinary new game experiences by bringing together great people that combine creativity, technology, and expertise to deliver new ways to play.</h1>
+      <h1 id="midtext3">EA is driving the next revolution in games. Join us.</h1>
+    </div>
+
+    <!....GSAHGSAH.....>
+    <div class="details">
+<center>
+    <table>
+      <div class="row">
+        <tr id="t01">
+          <td id="in01">Job Tittle</td>
+          <td id="in01">Category</td>
+        </tr>
+      </div>
+      <tr>
+        <td id="in"><a href="jobdetails.html">Embedded QA Analyst</a></td>
+        <td id="info">Creative Designer</td>
+      </tr>
+      <tr>
+        <td id="in"><a href="jobdetails1.html">ompositeur Style Orchestral - Orchestral Composer</a></td>
+        <td id="info">Programmer</td>
+      </tr>
+      <tr>
+        <td id="in"><a href="jobdetails2.html">C# game developer (mobile games)</a></td>
+        <td id="info">Programmer</td>
+      </tr>
+      <tr>
+        <td id="in"><a href="jobdetails3.html">Game Economy Designer</a></td>
+        <td id="info">Game Designer</td>
+      </tr>
+      <tr>
+        <td id="in"><a href="jobdetails4.html">FX Animator Intern</a></td>
+        <td id="info">Designer</td>
+      </tr>
+      <tr>
+        <td id="in"><a href="jobdetails5.html">Junior Accountant (6 month contract)</a></td>
+        <td id="info">Finance, Accounting</td>
+      </tr>
+      </table>
+    </center>
+
+    </div>
+
+    <!...footer......>
+<div class="footer">
+    <div class="footerimage1">
+      <img src="./image/gamesplay.png" height="40px">
+    </div>
+    <div class="footertxt1">
+      <a href="#">Games</a>
+      <a href="#">Career</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footertxt2">
+      <a href="#">Terms of use</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Cookies policy</a>
+    </div>
+    <div class="copyright">
+      <h1 id="copyright">GAMESPLAY copyright &copy 2019. All rights reserved.</h1>
+    </div>
+    <h1 id="footertxt3">JOIN THE CONVERSATION</h1>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.discord.com/"><i class="fab fa-discord"></i></a>
+    </div>
+  </div>
+
+<!....javascript....>
+<script type="text/javascript" src="./js/all.js"></script>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav").style.top = "0";
+  } else {
+    document.getElementById("nav").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</body>
+</html>
